@@ -1,0 +1,47 @@
+input, select, textarea {
+    font-family: inherit;
+}
+
+body {
+    text-align: center;
+    background-color: #ececea;
+}
+
+#wrapper {
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #c0d6e4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+table {
+    border-style: groove;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-style: groove;
+    padding: 10px;
+}
+
+tr.hlRow td {
+    background-color: #b7d2da;
+}
+
+tr.regrow td {
+    background-color: #ffffff;
+}
+
+#content h1, #content h2, #content p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
